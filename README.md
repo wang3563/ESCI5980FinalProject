@@ -19,7 +19,7 @@ Double-click on the ageCalculation icon and the GUI should appear.
 
 To see how ageCalculation works, please download the excel files.
 While ageCalculation is running, a GUI with the following layout should appear 
-![alt text](https://github.com/wang3563/ESCI5980FinalProject/Screen Shot 2017-05-09 at 15.31.53.png)
+![alt text](https://github.com/wang3563/ESCI5980FinalProject/SC1.png )
 
 Enter the following info in the order it is presented here and click submit, then upload the corresponding files and finally click the calculate and export age button.       
 
