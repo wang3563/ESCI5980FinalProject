@@ -29,7 +29,7 @@ Age_Calculation()
 the isofilter, Ucalculation, Thcalculation, background_values and chemblank_values classes are instantiated inside the Age_Calculation() method.
 Please see below for the details of each class.
 
-##Class isofilter() 
+## class isofilter() 
 
 Requires openpyxl and numpy.
 
@@ -42,13 +42,13 @@ Requires input parameters filename, columnletter, and filternumber inputs. Calcu
  -def Filtered_err(): filters data dpending on criteria and calculates resulting 2s error
  -def Filtered_counts(): filters data dpending on criteria and calculates resulting counts
 
-##class chem_blank()
+## class chem_blank()
 
 Requires input parameters filename, columnletter, and isotope analyzed. Calculates mean, counts, and relative 2s error for chemistry blanks, for use with Age Calculation.
 
   -def calc(): calculates and returns list of mean, counts, and relative 2s error for specified isotope
 
-##class Ucalculation()
+## class Ucalculation()
 
 Requires numpy, and pandas
 Requires input parameters spike used, abundance sensitivity, U filename. Calculates ratios and cps values from Uranium run needed for use in Th and Age Calculation functions.
@@ -56,7 +56,7 @@ Requires input parameters spike used, abundance sensitivity, U filename. Calcula
   -def U_normalization_forTh(): calculates and returns list of measured 236/233 ratio and error, normalized 235/233 ratio and error, and corrected 236/233 ratio and error, for use in Th function.
   -def U_normalized_forAge(): calculates and returns list of normalized 235/233 ratio and error, 234/235 normalized and corrected ratio and error, unfiltered cycles of 233 and filtered cycles of 234/235, and unfiltered mean of 233, for use in Age Calculation function.
 
-##class Thcalculation()
+## class Thcalculation()
 
 
 Requires input parameters spike used, abundance sensitivity, Th filename, and U_normalized_forTh() output.
@@ -65,7 +65,7 @@ Calculates ratios and cps values from Th run needed for use in Age Calculation f
 
   -def Th_normalization_forAge(): calculates and returns a list of corrected and normalized 230/229 ratio and error, corrected and normalized 232/229 ratio and error, and unfiltered mean and cycles of 229, for use in Age Calculation function.
 
-##class background_values()
+## class background_values()
 
 
 Requires U wash file, Th wash file. Calculates wash values for use in Age Calculation function.
@@ -73,7 +73,7 @@ Requires U wash file, Th wash file. Calculates wash values for use in Age Calcul
   -def U_wash(): calculates and returns list of 233, 234, and 235 wash values in cps for use in Age Calculation function.
   -def Th_wash(): calculates and returns 230 wash value in cpm for use in Age Calculation function.
 
-##class chemblank_values()
+## class chemblank_values()
 
 
 
