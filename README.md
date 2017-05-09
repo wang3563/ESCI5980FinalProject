@@ -21,7 +21,8 @@ To see how ageCalculation works, please download the excel files.
 While ageCalculation is running, a GUI with the following layout should appear 
 ![Screenshot](SC1.png )
 
-Enter the following info in the order it is presented here and click submit, then upload the corresponding files and finally click the calculate and export age button.       
+Enter the following info in the order it is presented here and click submit, then upload the corresponding files and finally click the calculate and export age button.
+If ran successfully there should be a messagebox pop up and show the calculated values
 
 The ageCalculation.py program is composed of several different classes: Application, isofilter, Ucalculation, Thcalculation, backgraound_values, chemblank_values.
 The Application class is where the main GUI is written, and its core calculation is done in method
