@@ -1,6 +1,6 @@
 # ESCI5980FinalProject
 
-** Written by Julia Nissen and Zongyi Wang**
+** Written by Julia Nissen and Zongyi Wang
 
 
 
