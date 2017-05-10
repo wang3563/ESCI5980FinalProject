@@ -1,4 +1,9 @@
 # ESCI5980FinalProject
+
+** Written by Julia Nissen and Zongyi Wang**
+
+
+
 Program is intended to serve as a data extraction tool/calculator to be used with specific excel files generated in Trace Metal Isotope Lab, UMN, to calculate age from U-Th MC-ICP-MS data
 
 Program includes all code necessary for calculating and exporting U-Th ages from MC-ICP-MS data files.
