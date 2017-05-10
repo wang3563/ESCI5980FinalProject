@@ -26,7 +26,63 @@ To see how ageCalculation works, please download the excel files.
 While ageCalculation is running, a GUI with the following layout should appear 
 ![Screenshot](SC1.png )
 
-Enter the following info in the order it is presented here and click submit, then upload the corresponding files and finally click the calculate and export age button.
+Enter the following info in the order it is presented here and click submit, then upload the corresponding files:
+
+```
+Upload U measurement file 
+```
+72U_011517.xlsx
+
+
+```
+Upload Th measurement file 
+```
+72Th_011517.xlsx
+
+
+```
+Upload U wash file 
+```
+72U_wash_011517.xlsx
+
+
+```
+Upload Th wash file 
+```
+72Th_wash_011517.xlsx
+
+
+```
+Upload U chem blank file 
+```
+71U_chemblank.xlsx
+```
+Upload Th chem blank file 
+```
+71Th_chemblank.xlsx
+
+
+```
+Upload U chem blank wash file 
+```
+71U_chemblank_wash.xlsx
+
+
+```
+Upload Th chem blank wash file 
+```
+71Th_chemblank_wash.xlsx
+
+
+
+```
+Upload age export file
+```
+age_spreadsheet_table.xlsx
+
+
+
+and finally click the calculate and export age button.
 If ran successfully there should be a messagebox pop up and show the calculated values
 
 The ageCalculation.py program is composed of several different classes: Application, isofilter, Ucalculation, Thcalculation, backgraound_values, chemblank_values.
