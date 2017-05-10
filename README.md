@@ -2,7 +2,7 @@
 
 **Written by Julia Nissen and Zongyi Wang**
 
-
+###### To download the Unix Executable file please click on the following link : https://drive.google.com/drive/folders/0BxS-Dr6cgN1HVlkxZEduYWhZTWM?usp=sharing ######
 
 Program is intended to serve as a data extraction tool/calculator to be used with specific excel files generated in Trace Metal Isotope Lab, UMN, to calculate age from U-Th MC-ICP-MS data
 
